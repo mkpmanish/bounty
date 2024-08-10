@@ -499,7 +499,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-126" value="Signature - Base64URLSafe(HMACSHA256)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="883.0400000000001" width="205" height="46.31" as="geometry" />
+          <mxGeometry x="605" y="883.04" width="185" height="46.96" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-129" target="9dKirbcF9FzAmbWhTHuT-131">
           <mxGeometry relative="1" as="geometry">
