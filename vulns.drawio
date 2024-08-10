@@ -378,10 +378,187 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-87" value="OAuth" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="253.25" y="680" width="40" height="40" as="geometry" />
+          <mxGeometry x="230" y="678.25" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9dKirbcF9FzAmbWhTHuT-88" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="205.5" y="832.38" width="161" height="77.62" as="geometry" />
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-88" target="9dKirbcF9FzAmbWhTHuT-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-88" value="1. User visits magicB app&lt;div&gt;2. user login with fb.com&lt;/div&gt;&lt;div&gt;3. user authenticates with fb.com&lt;/div&gt;&lt;div&gt;4. Authorization happens &amp;amp; scope is defined&lt;/div&gt;&lt;div&gt;5. Auth token given to app&lt;/div&gt;&lt;div&gt;6. auth token +client secret passed to fb to get access token&lt;/div&gt;&lt;div&gt;7. based on access token access is provided&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="206.5" y="852.38" width="323.5" height="107.62" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-91" target="9dKirbcF9FzAmbWhTHuT-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-91" target="9dKirbcF9FzAmbWhTHuT-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1055" />
+              <mxPoint x="130" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-91" target="9dKirbcF9FzAmbWhTHuT-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="177" y="1055" />
+              <mxPoint x="129" y="1055" />
+              <mxPoint x="129" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-91" target="9dKirbcF9FzAmbWhTHuT-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128" y="1055" />
+              <mxPoint x="128" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1070" as="targetPoint" />
+            <mxPoint x="177" y="1055" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-91" target="9dKirbcF9FzAmbWhTHuT-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1055" />
+              <mxPoint x="130" y="1118" />
+              <mxPoint x="110" y="1118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1169" as="targetPoint" />
+            <mxPoint x="215" y="1054" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="215" y="1055" />
+              <mxPoint x="130" y="1055" />
+              <mxPoint x="130" y="1169" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-91" value="1. RO, initiates a request with OAuth Client&lt;div&gt;2. OAuth Client sends the RO a redirection to Auth Server(fb.com)&lt;/div&gt;&lt;div&gt;3. RO authenticates &amp;amp; authorises to Authorisation server&lt;/div&gt;&lt;div&gt;4. Authorization server presents a form to RO to grant access&lt;/div&gt;&lt;div&gt;5. RO allows, AS send &lt;b&gt;grantcode&lt;/b&gt; or access token&lt;/div&gt;&lt;div&gt;6. OAuth Client &amp;nbsp;send client ID /Grant code/Client secret or cert to AU&lt;/div&gt;&lt;div&gt;7.If verified, AU send Oauth client &lt;b&gt;access&lt;/b&gt; and &lt;b&gt;refresh&lt;/b&gt; &lt;b&gt;token&lt;/b&gt;&lt;/div&gt;&lt;div&gt;8. Access token is valid for requested resource.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="1000" width="383.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-94" value="XSS in redirectURL" style="whiteSpace=wrap;html=1;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-50" y="940" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-97" value="State param CSRF" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-30" y="970" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-102" value="Access token in Browser" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1000" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-107" value="Ever lasting Auth Grant code" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-27.5" y="1060" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-109" value="Cross app token" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-32.5" y="1110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-112" value="Account hijacking via redirect_uri" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-32" y="1160" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-115" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.067;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="460" as="sourcePoint" />
+            <mxPoint x="540" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-116" target="9dKirbcF9FzAmbWhTHuT-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-116" target="9dKirbcF9FzAmbWhTHuT-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-116" target="9dKirbcF9FzAmbWhTHuT-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="906" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-116" value="JWT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="820" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-119" value="Header - {alg , typ}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="822.5" width="185" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-125" value="Payload - {data}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="855" width="185" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-126" target="9dKirbcF9FzAmbWhTHuT-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-126" value="Signature - Base64URLSafe(HMACSHA256)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="883.0400000000001" width="205" height="46.31" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-129" target="9dKirbcF9FzAmbWhTHuT-131">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="1140" />
+              <mxPoint x="324" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-129" value="1. JSON&lt;div&gt;2. Create JST signing key and sign algo&lt;/div&gt;&lt;div&gt;3. Creating header {typ, alg}&lt;/div&gt;&lt;div&gt;4. create signature Base64URLSafe(HMACSHA256(&amp;lt;base63header&amp;gt;.&amp;lt;base64payload&amp;gt;)&lt;/div&gt;&lt;div&gt;5. JWT = &amp;lt;header&amp;gt;.&amp;lt;body&amp;gt;.&amp;lt;signature&amp;gt;&lt;/div&gt;&lt;div&gt;6. Verifying JWT&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="990" width="277.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-131" value="Token Signature Verification?" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1180" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-133" value="origin - client side or server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-135" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1140" as="sourcePoint" />
+            <mxPoint x="460" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-136" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1140" as="sourcePoint" />
+            <mxPoint x="480" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-137" value="Duration Check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-138" value="RS256 -&amp;gt; HS256&lt;div&gt;None Algorith&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1230" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-138">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1140" as="sourcePoint" />
+            <mxPoint x="524" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-140" value="jku - JWKS - check URL and change it" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="1190" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="606" y="1140" as="sourcePoint" />
+            <mxPoint x="630" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-142" value="hashcat jwt_token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-143" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.364;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-142">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1140" as="sourcePoint" />
+            <mxPoint x="720" y="1090" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
