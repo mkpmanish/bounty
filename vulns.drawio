@@ -160,6 +160,52 @@
         <mxCell id="9dKirbcF9FzAmbWhTHuT-3" value="Use paramminer to find unkeyed inputs mostly headers , the use that header to poison like x-http-method-override. OR add random header really long and see if u get 400 and then remove it and check if normal URL also sends 400" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="293.25" y="540" width="211.5" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.729;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KAnZ7Fa2tKtf9aKGgKf9-5" target="9dKirbcF9FzAmbWhTHuT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-6" target="9dKirbcF9FzAmbWhTHuT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-6" value="HTTP De-Sync Attack" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="600" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-7" target="9dKirbcF9FzAmbWhTHuT-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="730" />
+              <mxPoint x="528" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-7" target="9dKirbcF9FzAmbWhTHuT-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="730" />
+              <mxPoint x="598" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-7" value="&lt;b&gt;CL.TE / TE.CL&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-14" value="&lt;b&gt;Open De-Sync&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="760" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-17" value="&lt;b&gt;IP Desync&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="760" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-18" value="&lt;b&gt;Self Desync&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
