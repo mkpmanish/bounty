@@ -17,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-5" value="Vulnerability MindMap" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="329" y="280" width="140" height="140" as="geometry" />
+          <mxGeometry x="330" y="281" width="139" height="139" as="geometry" />
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KAnZ7Fa2tKtf9aKGgKf9-9" target="KAnZ7Fa2tKtf9aKGgKf9-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-41" value="SSRF" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="248.25" y="327.5" width="45" height="45" as="geometry" />
+          <mxGeometry x="240" y="327.5" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-42" value="open redirection used as bypass" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="335" width="120" height="30" as="geometry" />
@@ -559,6 +559,30 @@
             <mxPoint x="670" y="1140" as="sourcePoint" />
             <mxPoint x="720" y="1090" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-145" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAnZ7Fa2tKtf9aKGgKf9-5" target="9dKirbcF9FzAmbWhTHuT-146">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="260" as="sourcePoint" />
+            <mxPoint x="140" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-146" target="9dKirbcF9FzAmbWhTHuT-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-146" target="9dKirbcF9FzAmbWhTHuT-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-146" value="Algorithm&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="215" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-148" value="Symmetric AES DES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="227.5" width="92.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-150" value="Asymmetric RSA ECC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112.25" y="165" width="102.5" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
