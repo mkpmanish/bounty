@@ -301,7 +301,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-52" value="SAML" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="130" y="642.75" width="55" height="55" as="geometry" />
+          <mxGeometry x="160" y="623.25" width="55" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-53" target="9dKirbcF9FzAmbWhTHuT-55">
           <mxGeometry relative="1" as="geometry" />
@@ -310,16 +310,78 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-53" value="1. user login into app&lt;div&gt;2. target webapp generates SAML req&lt;/div&gt;&lt;div&gt;3. Browser redirects user to IdP like Auth0&lt;/div&gt;&lt;div&gt;4. Auth0 parses SAML req and authenticates user&lt;/div&gt;&lt;div&gt;5. Auth0 returns encoded SAML response&lt;/div&gt;&lt;div&gt;6. Browser sends SAML response to SP&lt;/div&gt;&lt;div&gt;7. On successful verification user is allowed to login&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="619.5" width="280" height="101.5" as="geometry" />
+          <mxGeometry x="-210" y="600" width="280" height="101.5" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-55" value="&lt;b&gt;SP initiated eg. gmail&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="760" width="131" height="20" as="geometry" />
+          <mxGeometry x="-210" y="740" width="131" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-57" value="&lt;b&gt;IdP initiated eg. Login into panel and then accessapps&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="752.5" width="161.5" height="35" as="geometry" />
+          <mxGeometry x="-60" y="732.5" width="160" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="9dKirbcF9FzAmbWhTHuT-59" value="SAML Raider" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="127.5" y="740" width="60" height="34.75" as="geometry" />
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-59" target="9dKirbcF9FzAmbWhTHuT-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-59" value="SAML Signature" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="790" width="60" height="34.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-61" target="9dKirbcF9FzAmbWhTHuT-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="880" as="targetPoint" />
+            <mxPoint x="-87.49999999999977" y="832.3700000000001" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-87" y="850" />
+              <mxPoint x="-150" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-61" target="9dKirbcF9FzAmbWhTHuT-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-61" target="9dKirbcF9FzAmbWhTHuT-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-61" target="9dKirbcF9FzAmbWhTHuT-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-61" value="(DS)Detached Signature - sig and response alag alag (EnS)Enveloped Sig. - Response ke ander Signature (ES)Enveloping sig - signature ke ander repsonse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-155.5" y="782.38" width="290" height="49.99" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-69" value="&lt;b&gt;XSW1 (ES)&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-72" value="&lt;b&gt;XSW2 (DS)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-74" value="&lt;b&gt;XSW3-8&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="880" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-80" value="&lt;b&gt;XML signature Exclusion - remove sig&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="880" width="142.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-85" value="&lt;b&gt;Certificate Faking&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="880" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-86" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="460" as="sourcePoint" />
+            <mxPoint x="270" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-87" target="9dKirbcF9FzAmbWhTHuT-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-87" value="OAuth" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="253.25" y="680" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-88" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="205.5" y="832.38" width="161" height="77.62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
