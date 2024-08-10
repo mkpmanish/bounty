@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.6">
   <diagram name="Page-1" id="LwCmUqF6IoyyQt3CyeHW">
-    <mxGraphModel dx="954" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,10 +283,43 @@
           <mxGeometry x="20" y="534" width="55" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-44" value="&lt;b&gt;XInclude Attack&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="75" y="583" width="60" height="60" as="geometry" />
+          <mxGeometry x="77.5" y="585" width="57" height="57" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-49" value="&lt;b&gt;XML Bomb&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="122.5" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="460" as="sourcePoint" />
+            <mxPoint x="200" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-52" target="9dKirbcF9FzAmbWhTHuT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-52" target="9dKirbcF9FzAmbWhTHuT-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-52" value="SAML" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="642.75" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-53" target="9dKirbcF9FzAmbWhTHuT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-53" target="9dKirbcF9FzAmbWhTHuT-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-53" value="1. user login into app&lt;div&gt;2. target webapp generates SAML req&lt;/div&gt;&lt;div&gt;3. Browser redirects user to IdP like Auth0&lt;/div&gt;&lt;div&gt;4. Auth0 parses SAML req and authenticates user&lt;/div&gt;&lt;div&gt;5. Auth0 returns encoded SAML response&lt;/div&gt;&lt;div&gt;6. Browser sends SAML response to SP&lt;/div&gt;&lt;div&gt;7. On successful verification user is allowed to login&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="619.5" width="280" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-55" value="&lt;b&gt;SP initiated eg. gmail&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="760" width="131" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-57" value="&lt;b&gt;IdP initiated eg. Login into panel and then accessapps&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="752.5" width="161.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-59" value="SAML Raider" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="740" width="60" height="34.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
