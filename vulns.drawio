@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.6">
   <diagram name="Page-1" id="LwCmUqF6IoyyQt3CyeHW">
-    <mxGraphModel dx="1781" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,6 +80,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="300" as="sourcePoint" />
             <mxPoint x="540" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="260" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KAnZ7Fa2tKtf9aKGgKf9-26" target="KAnZ7Fa2tKtf9aKGgKf9-27" edge="1">
@@ -100,9 +103,9 @@
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-29" value="&lt;b&gt;JS Based&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="230" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KAnZ7Fa2tKtf9aKGgKf9-5" target="KAnZ7Fa2tKtf9aKGgKf9-32" edge="1">
+        <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="KAnZ7Fa2tKtf9aKGgKf9-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="260" as="sourcePoint" />
             <mxPoint x="650" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -115,9 +118,9 @@
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-33" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;generated serverside, protects injection, xss, remote js loading. We can define source for various things using directives&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="700" y="141.25" width="120" height="58.75" as="geometry" />
         </mxCell>
-        <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.083;entryY=0.658;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" target="KAnZ7Fa2tKtf9aKGgKf9-36" edge="1" source="KAnZ7Fa2tKtf9aKGgKf9-5">
+        <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.083;entryY=0.658;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="KAnZ7Fa2tKtf9aKGgKf9-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="290" as="sourcePoint" />
+            <mxPoint x="530" y="260" as="sourcePoint" />
             <mxPoint x="650" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -219,7 +222,7 @@
           <mxGeometry x="567" y="540" width="43" height="43" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-22" value="Executed server side.User input in injected in template as concatenation not as data without validation. Pass Payload, observe template and pass relevant payload. Use logic less template like mustache and validate User input" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="630" y="590" width="180" height="120" as="geometry" />
+          <mxGeometry x="610" y="590.75" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -234,7 +237,7 @@
           <mxGeometry x="570" y="500" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-31" value="Malcious input is processed by js library so pass javascript based payload like &amp;nbsp;alert, &amp;nbsp;constructor.constructor(alert)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="485" width="165" height="60" as="geometry" />
+          <mxGeometry x="620" y="485" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAnZ7Fa2tKtf9aKGgKf9-5" target="9dKirbcF9FzAmbWhTHuT-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -374,8 +377,10 @@
             <mxPoint x="270" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9dKirbcF9FzAmbWhTHuT-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-87" target="9dKirbcF9FzAmbWhTHuT-88">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="852" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-87" value="OAuth" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="230" y="678.25" width="40" height="40" as="geometry" />
@@ -509,8 +514,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9dKirbcF9FzAmbWhTHuT-129" value="1. JSON&lt;div&gt;2. Create JST signing key and sign algo&lt;/div&gt;&lt;div&gt;3. Creating header {typ, alg}&lt;/div&gt;&lt;div&gt;4. create signature Base64URLSafe(HMACSHA256(&amp;lt;base63header&amp;gt;.&amp;lt;base64payload&amp;gt;)&lt;/div&gt;&lt;div&gt;5. JWT = &amp;lt;header&amp;gt;.&amp;lt;body&amp;gt;.&amp;lt;signature&amp;gt;&lt;/div&gt;&lt;div&gt;6. Verifying JWT&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="582.5" y="990" width="277.5" height="120" as="geometry" />
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-129" value="1. JSON&lt;div&gt;2. Create JST signing key and sign algo&lt;/div&gt;&lt;div&gt;3. Creating header {typ, alg}&lt;/div&gt;&lt;div&gt;4. create signature Base64URLSafe(HMACSHA256(&lt;/div&gt;&lt;div&gt;&amp;lt;base63header&amp;gt;.&amp;lt;base64payload&amp;gt;)&lt;/div&gt;&lt;div&gt;5. JWT = &amp;lt;header&amp;gt;.&amp;lt;body&amp;gt;.&amp;lt;signature&amp;gt;&lt;/div&gt;&lt;div&gt;6. Verifying JWT&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="567" y="990" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-131" value="Token Signature Verification?" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="240" y="1180" width="160" height="20" as="geometry" />
@@ -565,15 +570,19 @@
             <mxPoint x="30" y="260" as="sourcePoint" />
             <mxPoint x="140" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="250" />
+              <mxPoint x="270" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-146" target="9dKirbcF9FzAmbWhTHuT-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9dKirbcF9FzAmbWhTHuT-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-146" target="9dKirbcF9FzAmbWhTHuT-150">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-146" target="9dKirbcF9FzAmbWhTHuT-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="189" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-146" value="Algorithm&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="132.5" y="215" width="60" height="60" as="geometry" />
@@ -582,7 +591,44 @@
           <mxGeometry x="17.5" y="227.5" width="92.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-150" value="Asymmetric RSA ECC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="112.25" y="165" width="102.5" height="25" as="geometry" />
+          <mxGeometry x="12.5" y="177.5" width="102.5" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-152" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-153">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="250" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-153" target="9dKirbcF9FzAmbWhTHuT-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-153" target="9dKirbcF9FzAmbWhTHuT-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-153" target="9dKirbcF9FzAmbWhTHuT-160">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-153" value="SQLi" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="234.38" y="115.63" width="31.25" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-155" value="&lt;b&gt;Error Based SQLi&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210.01" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-158" target="9dKirbcF9FzAmbWhTHuT-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-158" value="&lt;b&gt;Blind SQLi&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-160" value="&lt;b&gt;2nd Order&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293.25" y="60" width="76.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dKirbcF9FzAmbWhTHuT-163" value="Prepared Statement &quot;template ?&quot; Stored procedure - SQL code with variable @" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="10" width="247.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
