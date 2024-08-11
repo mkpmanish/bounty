@@ -143,7 +143,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-41" value="SSRF" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="240" y="327.5" width="45" height="45" as="geometry" />
+          <mxGeometry x="237.51" y="323.75" width="52.5" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="KAnZ7Fa2tKtf9aKGgKf9-42" value="open redirection used as bypass" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="335" width="120" height="30" as="geometry" />
@@ -383,7 +383,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-87" value="OAuth" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="230" y="678.25" width="40" height="40" as="geometry" />
+          <mxGeometry x="220" y="678.25" width="61.75" height="61.75" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dKirbcF9FzAmbWhTHuT-88" target="9dKirbcF9FzAmbWhTHuT-91">
           <mxGeometry relative="1" as="geometry" />
@@ -593,10 +593,10 @@
           <mxGeometry x="132.5" y="215" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-148" value="Symmetric AES DES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="17.5" y="227.5" width="92.5" height="35" as="geometry" />
+          <mxGeometry x="14.25" y="227.5" width="92.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-150" value="Asymmetric RSA ECC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="12.5" y="177.5" width="102.5" height="22.5" as="geometry" />
+          <mxGeometry x="14.25" y="177.5" width="102.5" height="22.5" as="geometry" />
         </mxCell>
         <mxCell id="9dKirbcF9FzAmbWhTHuT-152" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="9dKirbcF9FzAmbWhTHuT-153">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
