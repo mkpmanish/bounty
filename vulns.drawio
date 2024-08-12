@@ -673,6 +673,21 @@
         <mxCell id="vJIW3WEj-cd8_a2vXv2M-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="vJIW3WEj-cd8_a2vXv2M-1" target="vJIW3WEj-cd8_a2vXv2M-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vJIW3WEj-cd8_a2vXv2M-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJIW3WEj-cd8_a2vXv2M-1" target="vJIW3WEj-cd8_a2vXv2M-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="356.14285714285734" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-426" y="350" />
+              <mxPoint x="-315" y="350" />
+              <mxPoint x="-315" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJIW3WEj-cd8_a2vXv2M-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJIW3WEj-cd8_a2vXv2M-1" target="vJIW3WEj-cd8_a2vXv2M-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vJIW3WEj-cd8_a2vXv2M-1" value="Container Security" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="-520" y="340" width="110" height="110" as="geometry" />
         </mxCell>
@@ -948,6 +963,12 @@
         </mxCell>
         <mxCell id="vJIW3WEj-cd8_a2vXv2M-90" value="Falco - track/block activities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="475" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJIW3WEj-cd8_a2vXv2M-98" value="namespace - for isolation &amp;nbsp;PID, MOUNT, Network" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="320" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJIW3WEj-cd8_a2vXv2M-100" value="Cgroups are for restricting resource usage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-147" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
